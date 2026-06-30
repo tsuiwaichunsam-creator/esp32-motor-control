@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../build/motor/motor.egg-info
+writing ../../../build/motor/motor.egg-info/PKG-INFO
+writing dependency_links to ../../../build/motor/motor.egg-info/dependency_links.txt
+writing entry points to ../../../build/motor/motor.egg-info/entry_points.txt
+writing requirements to ../../../build/motor/motor.egg-info/requires.txt
+writing top-level names to ../../../build/motor/motor.egg-info/top_level.txt
+writing manifest file '../../../build/motor/motor.egg-info/SOURCES.txt'
+reading manifest file '../../../build/motor/motor.egg-info/SOURCES.txt'
+writing manifest file '../../../build/motor/motor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build/motor/build
+creating /workspace/build/motor/build/lib
+creating /workspace/build/motor/build/lib/motor
+copying motor/motor_gui.py -> /workspace/build/motor/build/lib/motor
+copying motor/__init__.py -> /workspace/build/motor/build/lib/motor
+copying motor/keyboard.py -> /workspace/build/motor/build/lib/motor
+running install
+running install_lib
+creating /workspace/install/motor/lib/python3.12/site-packages/motor
+copying /workspace/build/motor/build/lib/motor/motor_gui.py -> /workspace/install/motor/lib/python3.12/site-packages/motor
+copying /workspace/build/motor/build/lib/motor/__init__.py -> /workspace/install/motor/lib/python3.12/site-packages/motor
+copying /workspace/build/motor/build/lib/motor/keyboard.py -> /workspace/install/motor/lib/python3.12/site-packages/motor
+byte-compiling /workspace/install/motor/lib/python3.12/site-packages/motor/motor_gui.py to motor_gui.cpython-312.pyc
+byte-compiling /workspace/install/motor/lib/python3.12/site-packages/motor/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/install/motor/lib/python3.12/site-packages/motor/keyboard.py to keyboard.cpython-312.pyc
+running install_data
+creating /workspace/install/motor/share/ament_index
+creating /workspace/install/motor/share/ament_index/resource_index
+creating /workspace/install/motor/share/ament_index/resource_index/packages
+copying resource/motor -> /workspace/install/motor/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/motor/share/motor
+running install_egg_info
+Copying ../../../build/motor/motor.egg-info to /workspace/install/motor/lib/python3.12/site-packages/motor-0.0.0-py3.12.egg-info
+running install_scripts
+Installing keyboard script to /workspace/install/motor/lib/motor
+Installing motor_gui script to /workspace/install/motor/lib/motor
+writing list of installed files to '/workspace/build/motor/install.log'

@@ -1,0 +1,40 @@
+[0.807s] Invoking command in '/workspace/ros2_ws/build/motor': PYTHONPATH=/workspace/ros2_ws/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/ros2_ws/build/motor/build
+[1.075s] running develop
+[1.247s] Removing /workspace/ros2_ws/install/motor/lib/python3.12/site-packages/motor.egg-link (link to .)
+[1.274s] Invoked command in '/workspace/ros2_ws/build/motor' returned '0': PYTHONPATH=/workspace/ros2_ws/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/ros2_ws/build/motor/build
+[1.275s] Invoking command in '/workspace/ros2_ws/src/motor': PYTHONPATH=/workspace/ros2_ws/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor build --build-base /workspace/ros2_ws/build/motor/build install --record /workspace/ros2_ws/build/motor/install.log --single-version-externally-managed install_data --force
+[1.507s] running egg_info
+[1.524s] writing ../../build/motor/motor.egg-info/PKG-INFO
+[1.525s] writing dependency_links to ../../build/motor/motor.egg-info/dependency_links.txt
+[1.525s] writing entry points to ../../build/motor/motor.egg-info/entry_points.txt
+[1.525s] writing requirements to ../../build/motor/motor.egg-info/requires.txt
+[1.525s] writing top-level names to ../../build/motor/motor.egg-info/top_level.txt
+[1.560s] reading manifest file '../../build/motor/motor.egg-info/SOURCES.txt'
+[1.561s] writing manifest file '../../build/motor/motor.egg-info/SOURCES.txt'
+[1.561s] running build
+[1.561s] running build_py
+[1.561s] creating /workspace/ros2_ws/build/motor/build
+[1.561s] creating /workspace/ros2_ws/build/motor/build/lib
+[1.561s] creating /workspace/ros2_ws/build/motor/build/lib/motor
+[1.562s] copying motor/motor_gui.py -> /workspace/ros2_ws/build/motor/build/lib/motor
+[1.562s] copying motor/__init__.py -> /workspace/ros2_ws/build/motor/build/lib/motor
+[1.562s] copying motor/keyboard.py -> /workspace/ros2_ws/build/motor/build/lib/motor
+[1.563s] running install
+[1.568s] running install_lib
+[1.585s] creating /workspace/ros2_ws/install/motor/lib/python3.12/site-packages/motor
+[1.585s] copying /workspace/ros2_ws/build/motor/build/lib/motor/motor_gui.py -> /workspace/ros2_ws/install/motor/lib/python3.12/site-packages/motor
+[1.586s] copying /workspace/ros2_ws/build/motor/build/lib/motor/__init__.py -> /workspace/ros2_ws/install/motor/lib/python3.12/site-packages/motor
+[1.586s] copying /workspace/ros2_ws/build/motor/build/lib/motor/keyboard.py -> /workspace/ros2_ws/install/motor/lib/python3.12/site-packages/motor
+[1.587s] byte-compiling /workspace/ros2_ws/install/motor/lib/python3.12/site-packages/motor/motor_gui.py to motor_gui.cpython-312.pyc
+[1.588s] byte-compiling /workspace/ros2_ws/install/motor/lib/python3.12/site-packages/motor/__init__.py to __init__.cpython-312.pyc
+[1.588s] byte-compiling /workspace/ros2_ws/install/motor/lib/python3.12/site-packages/motor/keyboard.py to keyboard.cpython-312.pyc
+[1.589s] running install_data
+[1.589s] copying resource/motor -> /workspace/ros2_ws/install/motor/share/ament_index/resource_index/packages
+[1.590s] copying package.xml -> /workspace/ros2_ws/install/motor/share/motor
+[1.590s] running install_egg_info
+[1.609s] Copying ../../build/motor/motor.egg-info to /workspace/ros2_ws/install/motor/lib/python3.12/site-packages/motor-0.0.0-py3.12.egg-info
+[1.610s] running install_scripts
+[1.723s] Installing keyboard script to /workspace/ros2_ws/install/motor/lib/motor
+[1.724s] Installing motor_gui script to /workspace/ros2_ws/install/motor/lib/motor
+[1.724s] writing list of installed files to '/workspace/ros2_ws/build/motor/install.log'
+[1.752s] Invoked command in '/workspace/ros2_ws/src/motor' returned '0': PYTHONPATH=/workspace/ros2_ws/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor build --build-base /workspace/ros2_ws/build/motor/build install --record /workspace/ros2_ws/build/motor/install.log --single-version-externally-managed install_data --force

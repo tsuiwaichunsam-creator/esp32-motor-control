@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  micro-ros-agent:
+    image: microros/micro-ros-agent:jazzy
+    container_name: micro_ros_agent
+    network_mode: host
+    restart: always
+    privileged: true
+    volumes:
+      - /dev:/dev
+    command: serial --dev /dev/ttyACM0 -b 115200
+
+  motor-gui:
+    image: osrf/ros:jazzy-desktop-full
+    container_name: motor_gui_container
+    network_mode: host
+    depends_on:
+      - micro-ros-agent
+    privileged: true
+    environment:
+      - DISPLAY=${DISPLAY:-:0}
+      - PYTHONPATH=/workspace/ros2_ws/install/motor/lib/python3.12/site-packages:$PYTHONPATH
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - .:/workspace
+    working_dir: /workspace/ros2_ws
+    command: python3 src/motor/motor/motor_gui.py

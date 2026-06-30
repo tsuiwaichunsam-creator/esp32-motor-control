@@ -1,0 +1,25 @@
+[0.849s] Invoking command in '/workspace/ros2_ws/build/motor': PYTHONPATH=/workspace/ros2_ws/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/motor/build --no-deps symlink_data
+[1.127s] running develop
+[1.296s] running egg_info
+[1.296s] creating motor.egg-info
+[1.312s] writing motor.egg-info/PKG-INFO
+[1.312s] writing dependency_links to motor.egg-info/dependency_links.txt
+[1.313s] writing entry points to motor.egg-info/entry_points.txt
+[1.313s] writing requirements to motor.egg-info/requires.txt
+[1.313s] writing top-level names to motor.egg-info/top_level.txt
+[1.313s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[1.347s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[1.348s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[1.365s] running build_ext
+[1.365s] Creating /workspace/ros2_ws/install/motor/lib/python3.12/site-packages/motor.egg-link (link to .)
+[1.366s] Installing keyboard script to /workspace/ros2_ws/install/motor/lib/motor
+[1.367s] Installing motor_gui script to /workspace/ros2_ws/install/motor/lib/motor
+[1.367s] 
+[1.367s] Installed /workspace/ros2_ws/build/motor
+[1.367s] running symlink_data
+[1.367s] creating /workspace/ros2_ws/install/motor/share/ament_index
+[1.367s] creating /workspace/ros2_ws/install/motor/share/ament_index/resource_index
+[1.367s] creating /workspace/ros2_ws/install/motor/share/ament_index/resource_index/packages
+[1.368s] symbolically linking /workspace/ros2_ws/build/motor/resource/motor -> /workspace/ros2_ws/install/motor/share/ament_index/resource_index/packages
+[1.368s] symbolically linking /workspace/ros2_ws/build/motor/package.xml -> /workspace/ros2_ws/install/motor/share/motor
+[1.392s] Invoked command in '/workspace/ros2_ws/build/motor' returned '0': PYTHONPATH=/workspace/ros2_ws/build/motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros2_ws/build/motor/build --no-deps symlink_data

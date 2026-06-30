@@ -1,0 +1,3 @@
+[console_scripts]
+keyboard = motor.keyboard:main
+motor_gui = motor.motor_gui:main
