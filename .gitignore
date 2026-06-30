@@ -1,4 +1,34 @@
-*.pdf
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.o
+*.obj
+*.a
+*.lib
+
+# Executables and Binaries
+*.elf
+*.bin
+*.exe
+*.out
+
+# PlatformIO & Build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+install/
+log/
+
+# IDE files (VS Code)
+.vscode/
+.history/
+*.code-workspace
+
+# OS junk files
+.DS_Store
+Thumbs.db*.pdf
 *.step
 *.3mf
 *.zip
